@@ -1,0 +1,49 @@
+header {
+    display: block;
+    background-color: #616161;
+    color: white;
+    padding-top: 5px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+nav {
+    display: block;
+    background-color: #bdbdbd;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+main {
+    display: block;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+article {
+    display: block;
+    background-color: white;
+    border: 1px solid #495057;
+    margin: 5px;
+}
+
+footer {
+    display: block;
+    background-color: #616161;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 2em;
+}
