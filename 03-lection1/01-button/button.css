@@ -1,1 +1,80 @@
 /* Стилизация кнопки */
+.btn_primary {
+    width: 189px;
+    height: 48px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    cursor: default;
+}
+
+.btn_primary:hover {
+    border: 1px solid var(--primary-hover);
+    background-color: var(--primary-hover);
+    cursor: pointer;
+}
+
+.btn_primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn_secondary {
+    width: 189px;
+    height: 48px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    background: var(--secondary);
+    border-radius: 8px;
+    border: 1px solid var(--secondary);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    cursor: default;
+}
+
+.btn_secondary:hover {
+    border: 1px solid var(--secondary-hover);
+    background-color: var(--secondary-hover);
+    cursor: pointer;
+}
+
+.btn_secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn_alternate {
+    width: 189px;
+    height: 48px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--grey-4);
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--grey-3);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    cursor: default;
+}
+
+.btn_alternate:hover {
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
+.btn_alternate:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
