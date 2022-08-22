@@ -1,0 +1,49 @@
+.skeleton {
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 24px 24px;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.skeleton__logo {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+    flex-shrink: 0;
+}
+
+.skeleton__title {
+    width: 100%;
+    margin-left: 16px;
+}
+
+.skeleton__bar {
+    height: 20px;
+    background: var(--skeleton-background);
+    margin: 8px 0;
+}
+
+.skeleton__bar_s {
+    width: 40%;
+}
+
+.skeleton__bar_m {
+    width: 60%;
+}
+
+.skeleton__bar_l {
+    width: 100%;
+}
+
+.skeleton__content {
+    margin-top: 22px;
+    width: 100%;
+}
