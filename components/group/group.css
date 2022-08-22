@@ -4,6 +4,6 @@
     flex-wrap: wrap;
     padding: 68px 5px 204px 5px;
     justify-items: stretch;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
 }

@@ -7,52 +7,55 @@
     <link rel="stylesheet" href="./components/page/page.css">
     <link rel="stylesheet" href="./components/footer/footer.css">
     <link rel="stylesheet" href="./components/group/group.css">
-    <link rel="stylesheet" href="./components/preview/preview.css">
+    <link rel="stylesheet" href="components/card/card.css">
+    <link rel="stylesheet" href="./components/container/container.css">
 
     <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css">
-    <link rel="stylesheet" href="./03-lection1/01-button/button.css">
 </head>
-<body>
+<body class="page">
 <header class="header">
-    <h1 class="header__title">Reusable component library</h1>
+    <div class="container">
+        <h1 class="header__title">Reusable component library</h1>
+    </div>
 </header>
-<main class="page">
-    <div class="page__content">
+
+<main class="page__content">
+    <div class="container">
         <div class="group">
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="preview__content_placeholder"></div>
                 </div>
-                <div class="preview__title">
-                    Button
-                </div>
+                <h4 class="card__title">
+                    Tooltip
+                </h4>
             </div>
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="preview__content_placeholder"></div>
                 </div>
-                <div class="preview__title">
+                <h4 class="card__title">
                     Custom form elements
-                </div>
+                </h4>
             </div>
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="preview__content_placeholder"></div>
                 </div>
-                <div class="preview__title">
+                <h4 class="card__title">
                     Calendar
-                </div>
+                </h4>
             </div>
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="preview__content_placeholder"></div>
                 </div>
-                <div class="preview__title">
+                <h4 class="card__title">
                     Modal dialog
-                </div>
+                </h4>
             </div>
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="histogram">
                         <div class="histogram__header">
                             <p class="histogram__title">Total orders</p>
@@ -95,21 +98,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="preview__title">
+                <h4 class="card__title">
                     Histogram
-                </div>
+                </h4>
             </div>
-            <div class="preview">
-                <div class="preview__content">
+            <div class="card">
+                <div class="card__content">
                     <div class="preview__content_placeholder"></div>
                 </div>
-                <div class="preview__title">
+                <h4 class="card__title">
                     Avatar
-                </div>
+                </h4>
             </div>
         </div>
     </div>
 </main>
+
 <footer class="footer">
     <h1 class="footer__title">About</h1>
     <p class="footer__content">
