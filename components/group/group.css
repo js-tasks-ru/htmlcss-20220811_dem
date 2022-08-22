@@ -1,0 +1,9 @@
+.group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 68px 5px 204px 5px;
+    justify-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+}
