@@ -40,6 +40,6 @@
 
 .histogram__rectangle {
     background-color: var(--blue);
-    margin: 1px;
+    margin: 1px 1px 0 1px;
     flex-grow: 1;
 }
