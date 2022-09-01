@@ -55,6 +55,10 @@
     cursor: default;
 }
 
+.checkbox__input:disabled ~ .checkbox__state .checkbox__label {
+    color: var(--grey-2);
+}
+
 .checkbox__input:disabled ~ .checkbox__state .checkbox__control {
     background: var(--grey-2);
     border-color: var(--grey-2);
