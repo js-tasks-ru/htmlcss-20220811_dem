@@ -1,0 +1,78 @@
+.toggler {
+    display: inline-block;
+}
+
+.toggler__state {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.toggler__icon {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: var(--grey-2);
+    top: 50%;
+    /*Is it a bad practice? How to get rid of '+ 1px' here? */
+    left: calc(25% + 1px);
+    transform: translate(-50%, -50%);
+}
+
+.toggler__control {
+    box-sizing: border-box;
+    width: 52px;
+    height: 28px;
+    background: var(--white);
+    border-radius: 14px;
+    position: relative;
+    border: 1px solid var(--grey-2);
+}
+
+.toggler__label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grey-4);
+}
+
+.toggler__input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+/*Checked*/
+
+.toggler__input:checked ~ .toggler__state .toggler__control {
+    background: var(--blue);
+    border-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+.toggler__input:focus ~ .toggler__state .toggler__label {
+    text-decoration: underline;
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control .toggler__icon {
+    left: 75%;
+    background-color: var(--white);
+}
+
+/*Disabled*/
+
+.toggler__input:disabled ~ .toggler__state {
+    cursor: default;
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__control {
+    background: var(--grey-2);
+    border-color: var(--grey-2);
+}
+
+.toggler__input:disabled:not(:checked) ~ .toggler__state .toggler__control .toggler__icon {
+    background: var(--grey-3);
+}
