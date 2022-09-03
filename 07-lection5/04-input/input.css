@@ -60,6 +60,7 @@
 
 .input__field_invalid {
     border-color: var(--error);
+    box-shadow: var(--error-shadow);
 }
 
 .input__control:has(.input__field_invalid):after {
