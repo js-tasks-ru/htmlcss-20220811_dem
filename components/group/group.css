@@ -2,8 +2,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 68px 5px 204px 5px;
+    padding: 68px 5px 64px 5px;
     justify-items: stretch;
     justify-content: center;
     gap: 30px;
+}
+
+.group__appendix {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 92px;
+    justify-items: center;
+    justify-content: center;
 }

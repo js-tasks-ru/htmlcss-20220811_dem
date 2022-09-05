@@ -27,6 +27,7 @@
 
     --calendar-dark: #334D6E;
     --calendar-light: #90A0B7;
+    --transparent: rgba(0, 0, 0, 0.0);
 }
 
 /*reset*/

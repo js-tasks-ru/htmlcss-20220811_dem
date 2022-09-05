@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.menu__item {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+.menu__item_blur {
+    color: var(--grey-3);
+}
