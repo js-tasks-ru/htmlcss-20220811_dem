@@ -1,0 +1,25 @@
+.navigation {
+    background-color: var(--white);
+    padding: 24px 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation__panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 57px;
+}
+
+.navigation__item {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+
+.navigation__item:first-child {
+    flex-grow: 2;
+}
