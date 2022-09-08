@@ -1,0 +1,64 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: stretch;
+    position: relative;
+}
+
+.input::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.input_success:after {
+    background: url("public/success.svg") no-repeat;
+}
+
+.input_error:after {
+    background: url("public/error.svg") no-repeat;
+}
+
+.input_error .input__field {
+    border-color: var(--error);
+    box-shadow: var(--error-shadow);
+}
+
+.input__label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--grey-3);
+}
+
+.input__field {
+    height: 56px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    padding-left: 24px;
+}
+
+.input__field::placeholder {
+    color: var(--grey-2);
+}
+
+.input__field:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: var(--focus-shadow);
+}
